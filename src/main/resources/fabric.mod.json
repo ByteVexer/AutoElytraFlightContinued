@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "autoelytraflightcontinued",
+  "version": "${version}",
+  "name": "Auto Elytra Flight Continued",
+  "description": "Flies your elytra for you: alternates a shallow dive and a sharp pull-up so you gain altitude without fireworks. Client-side; only moves your pitch. A Fabric continuation of Cheaterpaul's AutoElytraFlight.",
+  "authors": ["ByteVexer"],
+  "contributors": [
+    "simonlourson (original Elytra Auto Flight, 2020)",
+    "Cheaterpaul (AutoElytraFlight Forge/NeoForge fork, GPL-3.0)"
+  ],
+  "contact": {
+    "homepage": "https://github.com/ByteVexer/AutoElytraFlightContinued",
+    "sources": "https://github.com/ByteVexer/AutoElytraFlightContinued",
+    "issues": "https://github.com/ByteVexer/AutoElytraFlightContinued/issues"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/autoelytraflightcontinued/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.ByteVexer.autoelytraflight.AutoElytraFlightClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

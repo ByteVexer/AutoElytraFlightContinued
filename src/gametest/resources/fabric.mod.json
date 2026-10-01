@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "autoelytraflightcontinued-gametest",
+  "version": "1.0",
+  "name": "Auto Elytra Flight Continued Game Tests",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-client-gametest": [
+      "me.ByteVexer.autoelytraflight.gametest.AutoElytraFlightClientGameTest"
+    ]
+  },
+  "depends": {
+    "autoelytraflightcontinued": "*"
+  }
+}
